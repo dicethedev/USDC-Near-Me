@@ -8,6 +8,7 @@
     "seed:dev": "nodemon --exec ts-node prisma/seed.ts",
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,7 +16,7 @@
   "license": "ISC",
   "description": "Find places to spend USDC anywhere in the world.",
   "dependencies": {
-    "@prisma/client": "^6.5.0",
+    "@prisma/client": "^6.7.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "nodemon": "^3.1.9",
